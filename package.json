@@ -1,0 +1,12 @@
+{
+  "version": "0.1.0",
+  "urls": [
+    ["wsd_esp32/__init__.py", "github:aadankan/micropython-wsd-esp32/wsd_esp32/__init__.py"],
+    ["wsd_esp32/oled_display.py", "github:aadankan/micropython-wsd-esp32/wsd_esp32/oled_display.py"],
+    ["wsd_esp32/rgb_led.py", "github:aadankan/micropython-wsd-esp32/wsd_esp32/rgb_led.py"]
+  ],
+  "deps": [
+    ["aadankan/micropython-st3215", "latest"],
+    ["ssd1306", "latest"]
+  ]
+}
