@@ -1,1 +1,1 @@
-# micropython-WSD-ESP32
+# micropython-wsd-esp32
