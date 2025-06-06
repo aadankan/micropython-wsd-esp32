@@ -1,7 +1,8 @@
 {
   "version": "0.1.0",
+  "install_to": "lib/wsd_esp32",
   "dependencies": [
-    "https://raw.githubusercontent.com/aadankan/micropython-st3215/main/manifest.json",
+    "https://raw.githubusercontent.com/aadankan/micropython-st3215/master/manifest.json",
     "ssd1306"
   ],
   "files": [
