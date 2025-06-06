@@ -6,7 +6,7 @@
     ["wsd_esp32/rgb_led.py", "github:aadankan/micropython-wsd-esp32/wsd_esp32/rgb_led.py"]
   ],
   "deps": [
-    ["https://raw.githubusercontent.com/aadankan/micropython-st3215/master/manifest.json", "latest"],
+    ["https://raw.githubusercontent.com/aadankan/micropython-st3215/master/package.json", "latest"],
     ["ssd1306", "latest"]
   ]
 }
