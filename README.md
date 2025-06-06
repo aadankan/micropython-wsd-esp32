@@ -6,3 +6,4 @@ It can be installed from [mip](https://docs.micropython.org/en/latest/reference/
 >>> import mip
 >>> mip.install("github:aadankan/micropython-wsd-esp32")
 ```
+
