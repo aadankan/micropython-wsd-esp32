@@ -72,7 +72,7 @@ oled.clear()  # clears the OLED display again
 
 ## Possible Wiring Diagram with servos
 
-![Wiring Diagram](images/wiring.jpg)
+![Wiring Diagram](docs/images/wiring.jpg)
 
 ---
 
