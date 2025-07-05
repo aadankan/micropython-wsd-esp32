@@ -2,28 +2,16 @@
 
 The **WSD ESP32** is a MicroPython library for controlling the WSD ESP32 board.
 
+---
+
 ## Installation
 
-It can be installed from [mip](https://docs.micropython.org/en/latest/reference/packages.html#installing-packages-with-mip) via:
+Install the module using `mip`:
 
 ```python
 import mip
 mip.install("github:aadankan/micropython-wsd-esp32")
 ```
-
----
-
-## Requirements
-- **WSD ESP32 Board**: The library is specifically tailored for the WSD ESP32 board.
-- **MicroPython**: Ensure you have MicroPython installed on your ESP32 board.
-
----
-
-## Documentation
-
-📖 Complete documentation, including usage examples and API reference, is available at:
-
-[https://aadankan.github.io/micropython-wsd-esp32/](https://aadankan.github.io/micropython-wsd-esp32/)
 
 ---
 
@@ -61,8 +49,6 @@ oled.clear()  # clears the OLED display again
 # servo.move_target_location(0, speed=1000)  # moves the servo back to the initial position
 ```
 
----
-
 ## Features
 - **RGB LED Control**: Set the color of the onboard RGB LED.
 - **Oled Display**: Control the onboard OLED display.
@@ -70,12 +56,10 @@ oled.clear()  # clears the OLED display again
 
 ---
 
+## Requirements
+- **WSD ESP32 Board**: The library is specifically tailored for the WSD ESP32 board.
+- **MicroPython**: Ensure you have MicroPython installed on your ESP32 board.
+
 ## Possible Wiring Diagram with servos
 
 ![Wiring Diagram](images/wiring.jpg)
-
----
-
-## License
-
-MIT License

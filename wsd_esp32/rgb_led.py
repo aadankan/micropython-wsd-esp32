@@ -31,6 +31,25 @@ class RGBLed:
             self.np[i] = (r, g, b)
         self.np.write()
 
+    def set_pixel(self, index: int, r: int, g: int, b: int):
+        """
+        Sets the color of a specific LED in the strip.
+
+        Parameters:
+            index (int): The index of the LED to set (0-based).
+            r (int): The red component of the color (0-255).
+            g (int): The green component of the color (0-255).
+            b (int): The blue component of the color (0-255).
+
+        Raises:
+            IndexError: If the index is out of range.
+        """
+        if 0 <= index < self.num_leds:
+            self.np[index] = (r, g, b)
+            self.np.write()
+        else:
+            raise IndexError("LED index out of range")
+
     def set_brightness(self, brightness: float):
         """
         Adjusts the brightness of all LEDs in the strip.

@@ -1,5 +1,5 @@
 from machine import Pin, I2C
-from lib.core.vendor import ssd1306  # TODO: change location of this library
+from lib import ssd1306  # TODO: change location of this library
 import time
 
 class OledDisplay:
@@ -32,7 +32,7 @@ class OledDisplay:
         self.display.fill(0)
         self.display.show()
 
-    def show_text(self, text, x=0, y=0):
+    def write(self, text, x=0, y=0):
         """
         Displays text on the OLED screen.
 
@@ -49,8 +49,8 @@ class OledDisplay:
         Runs a simple demo to showcase the OLED display functionality.
         """
         self.clear()
-        self.show_text("Hello, World!", 0, 0)
+        self.write("Hello, World!", 0, 0)
         time.sleep(2)
         self.clear()
-        self.show_text("Demo Complete!", 0, 10)
+        self.write("Demo Complete!", 0, 10)
         time.sleep(2)
